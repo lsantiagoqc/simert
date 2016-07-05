@@ -23,8 +23,8 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
+    public void setApellido(String ap) {
+        this.apellido = ap;
     }
     
     
