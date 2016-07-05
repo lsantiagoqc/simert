@@ -12,6 +12,7 @@ package ec.edu.utpl.lsquinones;
  */
 public class Persona {
     private String nombre;
+    private String apellido;
 
     public Persona(String nombre) {
         this.nombre = nombre;
@@ -20,6 +21,12 @@ public class Persona {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+    
+    
 
     public String getNombre() {
         return nombre;
