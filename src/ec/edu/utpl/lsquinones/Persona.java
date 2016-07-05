@@ -13,6 +13,7 @@ package ec.edu.utpl.lsquinones;
 public class Persona {
     private String nombre;
     private String apellido;
+    private int edad;
 
     public Persona(String nombre) {
         this.nombre = nombre;
