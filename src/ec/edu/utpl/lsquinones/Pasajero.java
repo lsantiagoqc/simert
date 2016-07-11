@@ -14,6 +14,7 @@ public class Pasajero {
     private String nombre;
     private String apellido;
     private int edad;
+    private float peso;
 
     public Pasajero(String nombre) {
         this.nombre = nombre;
