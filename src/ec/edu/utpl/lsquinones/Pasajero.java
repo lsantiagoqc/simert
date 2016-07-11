@@ -27,6 +27,12 @@ public class Pasajero {
         this.apellido = ap;
     }
 
+    public String getApellido() {
+        return apellido;
+    }
+    
+    
+
     public int getEdad() {
         return edad;
     }
@@ -35,11 +41,13 @@ public class Pasajero {
         this.edad = edad >= 0 ? edad : 0;
     }
     
-    
-    
-
     public String getNombre() {
         return nombre;
+    }
+    
+    @Override
+    public String toString(){
+        return String.format("%s % tiene %d años", getNombre(), getApellido(), getEdad());
     }
     
 }
