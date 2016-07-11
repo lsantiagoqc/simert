@@ -26,6 +26,11 @@ public class Persona {
     public void setApellido(String ap) {
         this.apellido = ap;
     }
+
+    public int getEdad() {
+        return edad;
+    }
+    
     
     
 
