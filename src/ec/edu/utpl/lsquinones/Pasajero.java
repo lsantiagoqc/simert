@@ -59,7 +59,7 @@ public class Pasajero {
     
     @Override
     public String toString(){
-        return String.format("%s % tiene %d años y un peso de %f", getNombre(), getApellido(), getEdad(), getPeso());
+        return String.format("%s % tiene %d años", getNombre(), getApellido(), getEdad());
     }
     
 }
