@@ -30,6 +30,10 @@ public class Persona {
     public int getEdad() {
         return edad;
     }
+
+    public void setEdad(int edad) {
+        this.edad = edad >= 0 ? edad : 0;
+    }
     
     
     
