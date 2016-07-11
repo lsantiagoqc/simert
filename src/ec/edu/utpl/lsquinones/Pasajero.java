@@ -45,6 +45,17 @@ public class Pasajero {
     public String getNombre() {
         return nombre;
     }
+
+    public void setPeso(float peso) {
+        this.peso = peso;
+    }
+
+    public float getPeso() {
+        return peso;
+    }
+    
+    
+    
     
     @Override
     public String toString(){
