@@ -10,12 +10,12 @@ package ec.edu.utpl.lsquinones;
  *
  * @author Santiago Quiñones
  */
-public class Persona {
+public class Pasajero {
     private String nombre;
     private String apellido;
     private int edad;
 
-    public Persona(String nombre) {
+    public Pasajero(String nombre) {
         this.nombre = nombre;
     }
 
@@ -23,9 +23,18 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
+    public void setApellido(String ap) {
+        this.apellido = ap;
     }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad >= 0 ? edad : 0;
+    }
+    
     
     
 
